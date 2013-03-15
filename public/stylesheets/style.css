@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  //color:#00FF00;
+  color:#98FB98;
+  background-color:#000000;
+  text-shadow: 0px 0px 7px #00FF00;
+  
+ }
+
+ #text{position:absolute; top:150px; z-index:10000}
+
+a {
+  /*color: #00B7FF;*/
+  color: #FF0000;
+}
+
+h1 {
+   color: #FF0000;
+   text-shadow: 0px 0px 0px red;
+   filter: fliph();
+}
+
+p {
+  color: #FF0000;
+  text-shadow: 0px 0px 0px red;
+  z-index:10000;
+}
+
+
+.messages{ position:absolute; width: 20px; min-height: 10px; font-size: 20px; word-break: break-all }
